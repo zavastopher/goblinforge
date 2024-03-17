@@ -1,0 +1,18 @@
+{
+  "name": "goblinforge",
+  "version": "1.0.0",
+  "description": "A Java package for the goblin forge websit.",
+  "main": "main.js",
+  "scripts": {
+      "css-build": "node-sass --omit-source-map-url sass/goblinstyles.scss css/goblinstyles.css",
+      "css-watch": "npm run css-build -- --watch",
+      "start": "npm run css-watch",
+      "test": "goblinforge-test"
+  },
+  "author": "Chris Zavala",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^9.0.0"
+  }
+}
