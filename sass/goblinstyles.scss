@@ -1,2 +1,28 @@
 @charset "utf-8";
-@import "../node_modules/bulma/bulma.sass";
+
+// Import Google Font
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Josefin+Sans:wght@100;400&family=Major+Mono+Display&family=Rowdies:wght@700&display=swap');
+
+// Goblin Forge Colors
+$dark-red: #540202;
+$light-red: #AB3131;
+$cream: #EDE0A6;
+$light-green: #799163;
+$dark-green: #507B58;
+
+// Global Variable changes
+$family-serif: "Inknut Antiqua", serif;
+$primary: $dark-red;
+$secondary: $dark-green;
+$link: $light-green;
+
+// Component variables
+$body-background-color: $cream;
+
+// Imports
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/elements/image.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/helpers/flexbox.sass";

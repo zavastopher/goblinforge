@@ -1,0 +1,14 @@
+@import "goblinstyles.css";
+
+.navbar {
+    background-color: transparent;
+}
+
+.nav-logo {
+    height: 10vh;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
