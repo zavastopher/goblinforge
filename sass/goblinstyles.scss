@@ -18,7 +18,10 @@ $link: $light-green;
 
 // Component variables
 $body-background-color: $cream;
-
+$family-primary: $family-serif;
+$text: $dark-red;
+$card-color: $cream;
+$card-background-color: $dark-red;
 // Imports
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
@@ -26,3 +29,4 @@ $body-background-color: $cream;
 @import "../node_modules/bulma/sass/elements/image.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/helpers/flexbox.sass";
+@import "../node_modules/bulma/sass/components/card.sass";

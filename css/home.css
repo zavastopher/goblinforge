@@ -1,14 +1,33 @@
 @import "goblinstyles.css";
 
 .navbar {
+    justify-self: center;
     background-color: transparent;
 }
 
 .nav-logo {
-    height: 10vh;
+    height: 3rem;
 }
 
-.brand {
+.navbar-brand {
     display: flex;
     align-items: center;
+    gap: .5rem;
+}
+
+.text-box {
+    color: #EDE0A6;
+    background-color: #540202;
+    width: 20rem;
+}
+
+.navbar-item:hover {
+    color:  #507B58; 
+    cursor: pointer;
+}
+
+.card {
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 25rem;
 }
