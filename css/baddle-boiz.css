@@ -24,7 +24,7 @@
 }
 
 .navbar-item:hover {
-    color:  #507B58; 
+    color: #507B58;
     cursor: pointer;
 }
 
@@ -46,4 +46,8 @@ hr {
 .title {
     color: #540202;
     margin-top: 5rem;
+}
+
+.is-active {
+    color: #506B58;
 }
