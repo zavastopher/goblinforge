@@ -2084,7 +2084,7 @@ print {
 .navbar.is-white .navbar-brand .navbar-link:hover,
 .navbar.is-white .navbar-brand .navbar-link.is-active {
   background-color: #f2f2f2;
-  color: #0a0a0a;
+  color: #507B58;
 }
 
 .navbar.is-white .navbar-brand .navbar-link::after {
@@ -2489,7 +2489,7 @@ print {
 
   .navbar.is-link .navbar-dropdown a.navbar-item.is-active {
     background-color: #799163;
-    color: #fff;
+    color: #507B58;
   }
 }
 
@@ -3293,7 +3293,7 @@ a.navbar-item.is-active,
 
   a.navbar-item.is-active,
   .navbar-link.is-active {
-    color: #0a0a0a;
+    color: #507B5;
   }
 
   a.navbar-item.is-active:not(:focus):not(:hover),

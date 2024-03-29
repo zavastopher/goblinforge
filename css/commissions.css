@@ -43,6 +43,10 @@ hr {
     background-color: #507B58;
 }
 
+.title.is-3 {
+    color: #799163;
+}
+
 .title {
     color: #EDE0A6;
 }
